@@ -3,7 +3,7 @@ import { useEffect } from "react";
 function EffectDemo() {
 
   useEffect(() => {
-    console.log("The page has loaded!");
+    console.log("The page has loaded!");// useEffect runs this code once after the component is displayed on the screen
   }, []);
 
   return (
